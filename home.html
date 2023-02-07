@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230207223735">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header" data-lp>
+			<div class="header__container">
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="home.html" class="menu__link">Home</a></li>
+							<li class="menu__item"><a href="menu.html" class="menu__link">Menu</a></li>
+							<li class="menu__item"><a href="takeaway.html" class="menu__link">Takeaway</a></li>
+							<li class="menu__item"><a href="contacts.html" class="menu__link">Contact</a></li>
+						</ul>
+					</nav>
+					<a href="#" data-popup="#search" type="button" class="menu__search _icon-search"></a>
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__home home">
+				<div class="home__container">
+					<div class="home__body">
+						<h1 class="home__title title">Healthy Protein Rich Fresh <span>Salads</span></h1>
+						<p class="home__text text">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor</p>
+						<div class="home__action">
+							<a href="#" data-ripple class="home__button button">View Menu</a>
+						</div>
+					</div>
+					<aside class="home__image">
+						<picture><source srcset="img/main-image.webp" type="image/webp"><img src="img/main-image.png" alt="image"></picture>
+					</aside>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+			</div>
+		</footer>
+	</div>
+	<div id="search" aria-hidden="true" class="popup popup--search">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close"></button>
+				<div class="popup__action action">
+					<form action="#" method="get" class="action__search">
+						<div class="action__line">
+							<input data-required autocomplete="off" type="text" name="form[]" data-error="" placeholder="" class="action__input input">
+						</div>
+						<button type="submit" class="action__button _icon-search"></button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20230207223735"></script>
+</body>
+
+</html>
